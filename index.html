@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple JavaScript Chatbot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container" id="chat-container">
+        <div class="chat-box" id="chat-box">
+            <-- Bot messages will displayed here -->
+            <div class="message bot-message">Hello! I am a simple rule-based bot. Type 'hi' or 'how are you'.</div>
+        </div>
+        <div class="input-area">
+            <input type="text" id="user-input" placeholder="Type something..." autocomplete="off">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+    <script src="chatbot.js"></script>
+</body>
+</html>
